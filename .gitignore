@@ -1,0 +1,10 @@
+# Eclipse / VSCode build folders
+bin/
+.settings/
+.classpath
+.project
+
+# OS junk files
+Thumbs.db
+Desktop.ini
+*.DS_Store
