@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="AP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.gameover">
+   <children>
+      <ImageView fitHeight="542.0" fitWidth="789.0" layoutX="-82.0" layoutY="-118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/桌面/素材/gameover.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="no" layoutX="368.0" layoutY="330.0" mnemonicParsing="false" onAction="#no" opacity="0.04" prefHeight="38.0" prefWidth="68.0" text="NO" />
+      <Button fx:id="yes" layoutX="205.0" layoutY="330.0" mnemonicParsing="false" onAction="#yes" opacity="0.05" prefHeight="37.0" prefWidth="109.0" text="YES" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.map4controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96d8ff" height="400.0" stroke="#96d8ff" strokeType="INSIDE" width="1500.0" />
+      <Rectangle fx:id="floor" fill="#2c8d1f" height="103.0" layoutY="397.0" stroke="#2c8d1f" strokeType="INSIDE" width="1500.0" />
+      <Rectangle fx:id="door" fill="#ec6464" height="68.0" layoutX="14.0" layoutY="329.0" stroke="#ff4c4c" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+      <Rectangle fx:id="rec" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="47.0" layoutY="365.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="28.0" />
+      <Rectangle fx:id="fireR" arcHeight="5.0" arcWidth="5.0" fill="#ac3131" height="15.0" layoutX="76.0" layoutY="372.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Rectangle fx:id="fireL" arcHeight="5.0" arcWidth="5.0" fill="#ac3131" height="15.0" layoutX="25.0" layoutY="372.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Label fx:id="L1" alignment="CENTER" layoutX="508.0" layoutY="53.0" prefHeight="98.0" prefWidth="484.0" text="製作人" textFill="#8a5a2a">
+         <font>
+            <Font name="System Bold" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="L2" alignment="CENTER" layoutX="436.0" layoutY="151.0" prefHeight="78.0" prefWidth="626.0" text="郭拓海  洪佳宇" textFill="#8a5a2a">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="r1" arcHeight="5.0" arcWidth="5.0" fill="#8192a1" height="138.0" layoutX="1310.0" layoutY="259.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="28.0" />
+      <Rectangle fx:id="r2" arcHeight="5.0" arcWidth="5.0" fill="#8192a1" height="15.0" layoutX="1322.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="160.0" />
+      <Rectangle fx:id="r3" arcHeight="5.0" arcWidth="5.0" fill="#8192a1" height="241.0" layoutX="1464.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Rectangle fx:id="r4" arcHeight="5.0" arcWidth="5.0" fill="#8192a1" height="4.0" layoutX="1384.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="94.0" />
+      <Rectangle fx:id="r5" arcHeight="5.0" arcWidth="5.0" fill="#8192a1" height="4.0" layoutX="1368.0" layoutY="116.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="35.0" />
+      <Rectangle fx:id="r6" arcHeight="5.0" arcWidth="5.0" fill="#8192a1" height="15.0" layoutX="1346.0" layoutY="128.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="88.0" />
+      <Rectangle fx:id="r8" arcHeight="5.0" arcWidth="5.0" fill="#8192a1" height="15.0" layoutX="1346.0" layoutY="214.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="88.0" />
+      <Rectangle fx:id="r7" arcHeight="5.0" arcWidth="5.0" fill="#8192a1" height="92.0" layoutX="1421.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+      <Rectangle fx:id="r9" arcHeight="5.0" arcWidth="5.0" fill="#8192a1" height="92.0" layoutX="1346.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+      <Rectangle fx:id="princess" arcHeight="5.0" arcWidth="5.0" fill="#ec8080" height="64.0" layoutX="1365.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+      <Button fx:id="BackToMenu" layoutX="1166.0" layoutY="272.0" mnemonicParsing="false" onAction="#btm" text="Back To Menu" textFill="#40acb4">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

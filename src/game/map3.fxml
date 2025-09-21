@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.map3collision">
+   <children>
+      <Rectangle height="500.0" stroke="BLACK" strokeType="INSIDE" width="1501.0" />
+      <Rectangle fx:id="f1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="340.0" layoutY="279.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="23.0" />
+      <Rectangle fx:id="f2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="485.0" layoutY="335.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="23.0" />
+      <Rectangle fx:id="f3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="687.0" layoutY="258.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="23.0" />
+      <Rectangle fx:id="f4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="954.0" layoutY="291.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="23.0" />
+      <Rectangle fx:id="f5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="1211.0" layoutY="229.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="23.0" />
+      <Rectangle fx:id="f6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="1350.0" layoutY="355.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="23.0" />
+      <Rectangle fx:id="lava" fill="#ff5328" height="25.0" layoutX="330.0" layoutY="475.0" stroke="#ff5328" strokeType="INSIDE" width="1171.0" />
+      <Rectangle fx:id="r1" fill="#8d8d8d" height="60.0" layoutY="440.0" stroke="#8d8d8d" strokeType="INSIDE" width="330.0" />
+      <Rectangle fill="#8d8d8d" height="320.0" layoutY="-1.0" stroke="#8d8d8d" strokeType="INSIDE" width="50.0" />
+      <Rectangle fx:id="r2" fill="#8d8d8d" height="82.0" layoutX="160.0" layoutY="416.0" stroke="#8d8d8d" strokeType="INSIDE" width="170.0" />
+      <Rectangle fx:id="r15" fill="#8d8d8d" height="295.0" layoutX="109.0" stroke="#8d8d8d" strokeType="INSIDE" width="166.0" />
+      <Rectangle fx:id="r3" fill="#8d8d8d" height="110.0" layoutX="232.0" layoutY="390.0" stroke="#8d8d8d" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="r14" fill="#8d8d8d" height="270.0" layoutX="109.0" layoutY="-1.0" stroke="#8d8d8d" strokeType="INSIDE" width="221.0" />
+      <Rectangle fx:id="r9" fill="#8d8d8d" height="95.0" layoutX="1007.0" layoutY="405.0" stroke="#8d8d8d" strokeType="INSIDE" width="110.0" />
+      <Rectangle fx:id="r5" fill="#8d8d8d" height="60.0" layoutX="528.0" layoutY="440.0" stroke="#8d8d8d" strokeType="INSIDE" width="149.0" />
+      <Rectangle fx:id="r6" fill="#8d8d8d" height="85.0" layoutX="528.0" layoutY="415.0" stroke="#8d8d8d" strokeType="INSIDE" width="149.0" />
+      <Rectangle fx:id="r7" fill="#8d8d8d" height="110.0" layoutX="592.0" layoutY="390.0" stroke="#8d8d8d" strokeType="INSIDE" width="85.0" />
+      <Rectangle fx:id="r8" fill="#8d8d8d" height="25.0" layoutX="744.0" layoutY="431.0" stroke="#8d8d8d" strokeType="INSIDE" width="180.0" />
+      <Rectangle fx:id="banger1" fill="#ffc86f" height="25.0" layoutX="878.0" layoutY="364.0" stroke="#ffc86f" strokeType="INSIDE" width="25.0" />
+      <Rectangle fx:id="r4" fill="#8d8d8d" height="135.0" layoutX="379.0" layoutY="365.0" stroke="#8d8d8d" strokeType="INSIDE" width="98.0" />
+      <Label fx:id="b1label" alignment="CENTER" layoutX="882.0" layoutY="361.0" prefHeight="24.0" prefWidth="16.0" text="?" textFill="#8a5a2a">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="r10" fill="#8d8d8d" height="135.0" layoutX="1090.0" layoutY="365.0" stroke="#8d8d8d" strokeType="INSIDE" width="110.0" />
+      <Rectangle fx:id="r11" fill="#8d8d8d" height="168.0" layoutX="1257.0" layoutY="333.0" stroke="#8d8d8d" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="r12" fill="#8d8d8d" height="204.0" layoutX="1375.0" layoutY="296.0" stroke="#8d8d8d" strokeType="INSIDE" width="127.0" />
+      <Rectangle fx:id="rec321112" fill="#8d8d8d" height="53.0" layoutX="-5.0" layoutY="-2.0" stroke="#8d8d8d" strokeType="INSIDE" width="1510.0" />
+      <Rectangle fx:id="rec3211122" fill="#8d8d8d" height="82.0" layoutX="1061.0" layoutY="-7.0" stroke="#8d8d8d" strokeType="INSIDE" width="446.0" />
+      <Rectangle fx:id="rec32111221" fill="#8d8d8d" height="93.0" layoutX="1234.0" layoutY="-2.0" stroke="#8d8d8d" strokeType="INSIDE" width="269.0" />
+      <Rectangle fx:id="r13" fill="#8d8d8d" height="120.0" layoutX="1371.0" layoutY="-1.0" stroke="#8d8d8d" strokeType="INSIDE" width="130.0" />
+      <Rectangle fx:id="end" fill="#ec6464" height="68.0" layoutX="1459.0" layoutY="229.0" stroke="#ff4c4c" strokeType="INSIDE" strokeWidth="0.0" width="41.0" />
+      <Rectangle fx:id="banger2" fill="#ffc86f" height="25.0" layoutX="776.0" layoutY="167.0" stroke="#ffc86f" strokeType="INSIDE" width="25.0" />
+      <Label fx:id="b2label" alignment="CENTER" layoutX="780.0" layoutY="164.0" prefHeight="24.0" prefWidth="16.0" text="?" textFill="#8a5a2a">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="marshroom" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="776.0" layoutY="143.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="23.0" />
+      <Rectangle fx:id="h1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="24.0" layoutX="5.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="24.0" />
+      <Rectangle fx:id="rec" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="65.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="28.0" />
+      <Rectangle fx:id="fireR" arcHeight="5.0" arcWidth="5.0" fill="#ac3131" height="15.0" layoutX="94.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Rectangle fx:id="fireL" arcHeight="5.0" arcWidth="5.0" fill="#ac3131" height="15.0" layoutX="43.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Rectangle fx:id="rec221111211" arcHeight="5.0" arcWidth="5.0" fill="#41d348" height="22.0" layoutX="34.0" layoutY="344.0" stroke="#75531b" strokeType="INSIDE" strokeWidth="0.0" width="90.0" />
+      <Rectangle fx:id="rec22111121" arcHeight="5.0" arcWidth="5.0" fill="#41d348" height="346.0" layoutX="49.0" stroke="#75531b" strokeType="INSIDE" strokeWidth="0.0" width="60.0" />
+      <Rectangle fx:id="h2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="24.0" layoutX="30.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="24.0" />
+      <Rectangle fx:id="h3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="24.0" layoutX="55.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="24.0" />
+      <Button fx:id="nextstage2" layoutX="1360.0" layoutY="136.0" mnemonicParsing="false" onAction="#go_map4" text="NextStage" textFill="#40acb4">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
